@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-button slot="start" href="con-ins/">
+      <ion-icon src="assets/icon/arrow-back.svg" size="small"></ion-icon>
+    </ion-button>
+    <ion-title style="text-align: center;">
+      Connexion
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/1.png" style="display: block;margin-left: auto; margin-right: auto;">
+      <ion-card-title style="text-align: center;"> Connexion à FLIGHT SELECTOR</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-icon src="assets/icon/mail.svg" size="small"></ion-icon>
+        <ion-input placeholder=" Email" type="Email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-icon src="assets/icon/lock-closed.svg" size="small"></ion-icon>
+        <ion-input placeholder=" Mot de passe" type="password" ></ion-input>
+      </ion-item>
+    <br>
+      <p style="float: right;"><a href="#">Mot de passe Oublié?</a></p>
+    <br>
+    <ion-button color="primary" type="string" expand="block" href="acceuil">Connexion</ion-button>
+    <br>
+    <ion-text>
+     <p>Vous n'avez pas de compte? <a href="inscription/">S'Inscrire</a></p>
+    </ion-text>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

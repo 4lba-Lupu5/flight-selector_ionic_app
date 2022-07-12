@@ -1,0 +1,28 @@
+#prix{
+    text-align: center;
+    border-radius: 2.5%;
+    background-color: green;
+    color: white;
+}
+.ion-img{
+    height: 25%;
+    width: 25%;
+}
+
+
+.prix{
+    vertical-align: middle;
+    align-items: center;
+}
+
+.temps{
+    text-align: center;
+}
+
+.type-trajet{
+    text-align: right;
+}
+
+ion-content{
+  --background: url(../../assets/3.jpg) 0 0/100% 100% no-repeat;
+}
